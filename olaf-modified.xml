@@ -756,7 +756,7 @@
         <Image condition="image">javaws.exe</Image>
         <Image name="technique_id=T1543.003,technique_name=Windows Service" condition="image">mmc.exe</Image>
         <Image name="technique_id=T1218,technique_name=Signed Binary Proxy Execution" condition="image">msbuild.exe</Image>
-        <Image condition="image">mstsc.exe</Image> <!--Windows: Can connect back to attacker's RDP server in Rogue RDP attack | Credit @thiccmints -->
+        <Image condition="image">mstsc.exe</Image> <!--Windows: Can connect back to attacker's RDP server in Rogue RDP attack | Credit @thickmintsdev -->
         <Image name="technique_id=T1016,technique_name=System Network Configuration Discovery" condition="image">nbtstat.exe</Image>
         <Image name="technique_id=T1018,technique_name=Remote System Discovery" condition="image">nslookup.exe</Image>
         <Image name="technique_id=T1057,technique_name=Process Discovery" condition="image">qprocess.exe</Image>
@@ -1303,7 +1303,7 @@
         <TargetFilename condition="end with">.pyc</TargetFilename>
         <TargetFilename condition="end with">.pyw</TargetFilename>
         <Image condition="image">rundll32.exe</Image>
-        <Image condition="image">mstsc.exe</Image> <!--Windows: Can connect back to attacker's RDP server in Rogue RDP attack | Credit @thiccmints -->
+        <Image condition="image">mstsc.exe</Image> <!--Windows: Can connect back to attacker's RDP server in Rogue RDP attack | Credit @thickmintsdev -->
         <TargetFilename condition="begin with">C:\Windows\System32\Tasks</TargetFilename>
         <TargetFilename condition="begin with">C:\Windows\Tasks\</TargetFilename>
         <TargetFilename condition="contains">\Start Menu</TargetFilename>
